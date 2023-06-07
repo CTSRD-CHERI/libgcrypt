@@ -131,6 +131,7 @@ typedef union
   u64 e;
   float f;
   double g;
+  uintptr_t u;
 } PROPERLY_ALIGNED_TYPE;
 
 #endif /*GCRYPT_TYPES_H*/
